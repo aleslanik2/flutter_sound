@@ -213,7 +213,7 @@ class FlutterSoundRecorder {
                         let volumeSum = 0;
                         for (const volume of volumes)
                                 volumeSum += volume;
-                        return volumeSum / volumes.length;
+                        return 10;//volumeSum / volumes.length;
                 }
 
 
